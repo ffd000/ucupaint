@@ -4315,7 +4315,7 @@ def main_draw(self, context):
     #layout.operator("wm.y_debug_mesh", icon='MESH_DATA')
     #layout.operator("wm.y_test_ray", icon='MESH_DATA')
 
-    from . import addon_updater_ops
+    """from . import addon_updater_ops
 
     updater = addon_updater_ops.updater
 
@@ -4355,7 +4355,7 @@ def main_draw(self, context):
         row_alert.operator("extensions.userpref_show_for_update", icon='ERROR', text='New version is available!') # + ypui.latest_version)
         row_alert.alert = False
         row_alert.operator("ext.pending_update", icon='PANEL_CLOSE', text='')
-
+"""
     icon = 'TRIA_DOWN' if ypui.show_object else 'TRIA_RIGHT'
     row = layout.row(align=True)
     rrow = row.row(align=True)
